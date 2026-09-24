@@ -231,7 +231,7 @@ button { font-family: inherit; }
 }
 .pain-claim {
   font: 500 16px/1.4 var(--font-heading); text-decoration: line-through;
-  text-decoration-color: color-mix(in srgb, var(--color-accent) 70%, transparent); text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 70%, transparent); text-decoration-thickness: 2px;
   color: color-mix(in srgb, var(--color-text) 62%, transparent);
 }
 .pain-truth { font-size: 14.5px; line-height: 1.55; color: color-mix(in srgb, var(--color-text) 80%, transparent); margin-top: auto; }
@@ -381,4 +381,12 @@ button { font-family: inherit; }
   .hero, .setup-section, .survey-grid { grid-template-columns: 1fr; }
   .survey-sticky { position: static; }
   .step-row { grid-template-columns: 1fr; gap: 8px; }
+}
+
+.step-footnote {
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 4px 0 0;
+  padding-left: calc(min(110px, 56px) + 20px);
+  color: color-mix(in srgb, var(--color-text) 48%, transparent);
 }
