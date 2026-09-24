@@ -6,4 +6,4 @@
 * **Работающий сайт анкеты:** [Открыть анкету](https://ami-ars.github.io/anketa.github.io/)
 
 ## 🛠️ Стек технологий
-* HTML5, CSS3, JavaScript (Vanilla)
+* HTML5, CSS3, JavaScript (Vanilla) 
