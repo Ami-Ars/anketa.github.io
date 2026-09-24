@@ -58,7 +58,7 @@
               <span></span><span></span><span></span>
             </div>
             <div class="chat-answer is-visible" data-answer>
-              <div class="msg-bot" data-chat-report>Проверил 47 новых вакансий за сутки. Подошла 1 — остальные отсеял: 21 гибрид, 14 без вилки, 11 не тот стек.</div>
+              <div class="msg-bot" data-chat-report>Проверил 47 новых вакансий за сутки. Подошла 1 — остальные отсеял: 21 гибрид, 14 без дохода, 11 не по специальности.</div>
               <div class="job-card">
                 <div class="job-card-top">
                   <div class="job-title" data-job-title>Senior Frontend</div>
@@ -67,11 +67,11 @@
                 <div class="job-meta" data-job-meta>260 000 – 310 000 ₽ · полностью удалённо · React, TS</div>
                 <div class="job-divider"></div>
                 <div class="job-tags">
-                  <span class="tag tag-accent" data-job-tag1>вилка указана</span>
+                  <span class="tag tag-accent" data-job-tag1>зарплата указана</span>
                   <span class="tag tag-neutral" data-job-tag2>без тестового</span>
                 </div>
               </div>
-              <div class="chat-why" data-chat-why>Прислал, потому что вилка выше вашей и удалёнка без оговорок в тексте.</div>
+              <div class="chat-why" data-chat-why>Прислал, потому что уровень дохода выше вашего и удалёнка без оговорок в тексте.</div>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@
   </section>
 
   <section id="pain" class="pain-section">
-    <div class="section-kicker"><span class="rule"></span><span>Что бесит в поиске сейчас</span></div>
+    <div class="section-kicker"><span class="rule"></span><span>Что не так с поиском сейчас?</span></div>
     <h2>Вакансия обещает одно, а в тексте — другое</h2>
     <div class="pain-grid">
       <div class="pain-card">
@@ -90,15 +90,15 @@
       </div>
       <div class="pain-card">
         <div class="pain-claim">«Зарплата по договорённости»</div>
-        <div class="pain-truth">Вилку называют на третьем созвоне. Часто ниже, чем вы согласны обсуждать.</div>
+        <div class="pain-truth">Уровень дохода называют на третьем созвоне. Часто ниже, чем вы согласны обсуждать.</div>
       </div>
       <div class="pain-card">
         <div class="pain-claim">«Доход без ограничений»</div>
         <div class="pain-truth">Оклада нет, только процент. Понятно это лишь из мелкого текста внизу.</div>
       </div>
       <div class="pain-card">
-        <div class="pain-claim">200 писем в день</div>
-        <div class="pain-truth">Одна и та же вакансия приходит с пяти сайтов, а нужных среди них две.</div>
+        <div class="pain-claim">200 вакансий в день</div>
+        <div class="pain-truth">Одни и те же вакансии с разных сайтов. Уникальных — сорок, подходящих — две.</div>
       </div>
     </div>
     <p class="pain-footnote">Чтобы это выяснить, приходится открыть каждую вакансию и дочитать до конца. Быстропоиск делает это за вас и молчит, пока не найдёт подходящую.</p>
@@ -124,7 +124,12 @@
       <div class="stat-label">для участников опроса</div>
     </div>
   </div>
+   <div class="footnotes">
+    <span>* Цифры приблизительные: это наши ожидания от продукта, а не результаты измерений — бот ещё не запущен.</span>
+    <span>** 0 ₽ — на время бета-теста для участников опроса. Как будет устроена цена после, ещё решаем: об этом тоже спрашиваем в форме.</span>
+  </div>
 </section>
+
 
 <div class="container">
 
@@ -134,7 +139,7 @@
     <div class="step-row">
       <div class="step-num">01</div>
       <h2>Настраиваете фильтр</h2>
-      <p class="step-copy">Должность, зарплата от, формат работы и источники — прямо в чате, без анкет и резюме. Одно сообщение боту, дальше правится в любой момент.</p>
+      <p class="step-copy">Должность, зарплата от, формат работы и источники — прямо в чате, без анкет и резюме. Несколько сообщений боту, дальше правится в любой момент.</p>
     </div>
     <div class="step-row">
       <div class="step-num">02</div>
@@ -144,8 +149,9 @@
     <div class="step-row">
       <div class="step-num">03</div>
       <h2>Приходит только подходящее</h2>
-      <p class="step-copy">В Telegram падают 2–3 вакансии в день с процентом совпадения и объяснением, почему прислали. Не то — жмёте «не подходит», и фильтр становится точнее.</p>
+      <p class="step-copy">В Telegram падают 2–3<sup>*</sup> вакансии в день с процентом совпадения и объяснением, почему прислали. Не то — жмёте «не подходит», и фильтр становится точнее.</p>
     </div>
+    <p class="step-footnote">* Ожидание, а не измерение — бот ещё не запущен.</p>
   </section>
 
   <section id="setup" class="setup-section">
@@ -172,7 +178,7 @@
           <span class="knob-num">03</span>
           <div>
             <div class="knob-title">Зарплата и условия</div>
-            <div class="knob-copy">Порог по вилке, график, район или удалёнка. Вакансии без указанной зарплаты можно скрыть совсем.</div>
+            <div class="knob-copy">Минимальный оклад, график, район или удалёнка. Вакансии без указанной зарплаты можно скрыть совсем.</div>
           </div>
         </div>
       </div>
@@ -222,7 +228,7 @@
       <h2>Скажите, каким должен быть бот</h2>
       <p class="survey-lead">Мы ещё не написали ни строчки продакшн-кода. Несколько вопросов без регистрации — и мы соберём то, чем будете пользоваться вы, а не то, что придумали мы.</p>
       <div class="survey-bullets">
-        <div class="survey-bullet"><span class="dash">—</span><span>Где вы ищете работу сейчас и что бесит больше всего</span></div>
+        <div class="survey-bullet"><span class="dash">—</span><span>Где вы ищете работу сейчас и что отнимает больше всего времени?</span></div>
         <div class="survey-bullet"><span class="dash">—</span><span>Какие фильтры для вас обязательны, а какие лишние</span></div>
         <div class="survey-bullet"><span class="dash">—</span><span>Готовы ли платить — и сколько это стоит по-вашему</span></div>
       </div>
@@ -244,7 +250,12 @@
     </div>
   </div>
 </section>
-
+<div class="container">
+  <footer class="footer">
+    <span>Быстропоиск · проверка идеи, 2026</span>
+    <span>Бот не откликается за вас и не публикует резюме — только приносит вакансии в чат</span>
+  </footer>
+</div>
 <div class="modal-overlay" data-survey-modal hidden>
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="survey-modal-title">
     <div class="modal-head">
@@ -255,17 +266,6 @@
       <iframe class="modal-iframe" data-survey-iframe title="Опрос Быстропоиск" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
     </div>
   </div>
-</div>
-
-<div class="container">
-  <div class="footnotes">
-    <span>* Цифры приблизительные: это наши ожидания от продукта, а не результаты измерений — бот ещё не запущен.</span>
-    <span>** 0 ₽ — на время бета-теста для участников опроса. Как будет устроена цена после, ещё решаем: об этом тоже спрашиваем в форме.</span>
-  </div>
-  <footer class="footer">
-    <span>Быстропоиск · проверка идеи, 2026</span>
-    <span>Бот не откликается за вас и не публикует резюме — только приносит вакансии в чат</span>
-  </footer>
 </div>
 
 <script src="script.js"></script>
